@@ -1,0 +1,46 @@
+Notes from https://www.youtube.com/watch?v=9GVqKuTVANE 
+
+ata warehouse - subject oriented [sales, business, customer], integrated, time variant [historical data], non volatile [not modified] collection of data in support of decision making process. 
+
+Collect data, transform and shared data such as an excel, ppt or report without no reliable data process. 
+Issue of handling big data.
+If there is a need for an integrated report of multiple data source then it is a problem.
+
+ETL [extract, transform, load] loads data to warehouse from multiple sources. Automated process and its faster. 
+
+ETL + Data warehouse = data eng
+Consume data warehouse + build report + models = data analysts
+
+ETL = Extract, Transform, Load - 
+
+Extract - identify data we need from source and dont need to change anything.
+Transform - change shape of data , cleansing, formatting, normalizing, new formatting
+Load - Take transformed data and load into target [data warehouse]
+
+Dont have to use complete ETL. It depends on data architecture. 
+
+            Extraction Method
+            Pull Extraction, Push Extraction
+
+            Extract Types
+            Full Extraction [all records pulled]
+            Incremental Extraction [identify new chnaging data]
+
+
+            Data Extraction Techniques
+            Manual - access source system and extract manually
+            DB Querying - connect to db and run query
+            File Parsing - parse parse to warehouse
+            API
+            Event Based Streaming
+            CDC - changed data capture
+            Web Scraping - code
+
+            Transformation
+            Data Enrichment - 
+
+
+
+
+
+
