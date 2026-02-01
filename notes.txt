@@ -37,7 +37,47 @@ Dont have to use complete ETL. It depends on data architecture.
             Web Scraping - code
 
             Transformation
-            Data Enrichment - 
+            Data Enrichment - add values to dataset
+            Integration
+            derive column
+            normalize and standardize
+            business rules and logic
+            data aggregation 
+            Data cleansing 
+                    duplicates
+                    filtering
+                    missing data
+                    invaliad
+                    unwanted space
+                    type casting
+                    outlier detection
+
+
+            Load
+            Full Load
+                 truncate + insert - make table empty then insert
+                 upsert - update insert, update all record,then insert
+                 drop [table]. create, insert
+
+
+            Incremental Load
+                upsert
+                append
+                merge
+
+
+
+            Processing 
+            Batch - load in one big batch - one time
+            Stream - if there is a change, then process it ASAP. [real time dw]
+
+
+Slowly Changing Dimensions 
+
+    no historization - no update
+    overwrite old valye [lose history]
+    historization - insert new record, no loss of history
+
 
 
 
